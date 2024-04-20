@@ -10,5 +10,9 @@ public class FileUtil {
         Files.writeString(Paths.get(path), content);
     }
 
+    public static void write(String path, String content) throws IOException {
+        Files.writeString(Paths.get(path), content);
+    }
+
 
 }
